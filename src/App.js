@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from "./04/Button";
 import "./App.css";
 import "./sass/materialize.scss";
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
             <div>두잇! 리액트 시작하기</div>
           </div>
         </nav>
+        <Button>button</Button>
       </div>
     );
   }

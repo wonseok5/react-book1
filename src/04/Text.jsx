@@ -44,7 +44,7 @@ Text.propTypes = {
 
 export default withStyles(({ color, size }) => ({
   default: { color: color.default, fontSize: size.md },
-  xlarge: { fontSize: size.md },
+  xlarge: { fontSize: size.xg },
   large: { fontSize: size.lg },
   small: { fontSize: size.sm },
   xsmall: { fontSize: size.xs },
